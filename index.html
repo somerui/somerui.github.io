@@ -1,13 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<title>This is SOMERUi.</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOMERUi's Official site</title>
+    <!-- <link rel="stylesheet" type="text/css" href="css/style.css" /> -->
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: "微软雅黑";
+        }
+        header{
+            background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://th.bing.com/th/id/R.bf1624afe04e1863eea8d25e03776439?rik=jFuToOvsnrJ86Q&riu=http%3a%2f%2fimage.qianye88.com%2fpic%2f262f4623e38439b9a40d6d78460d559b&ehk=h8Z4WT1xqKoSoxQ4mc2BcBI3LpHSuSLBUtlCK9EPaPU%3d&risl=&pid=ImgRaw&r=0);
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+        }
+    
+        ul{
+            float: right;
+            list-style-type: none;
+            margin: 15px;
+        }
+        ul li{
+            display: inline-block;
+        }
+    
+        ul li a{
+            text-decoration: none;
+            color: #fff;
+            padding: 5px 20px;
+            border: 1px solid transparent;
+            transition: .6s ease;
+            border-radius: 20px;
+        }
+    
+        ul li a:hover{
+            background-color: #fff;
+            color: #000;
+        }
+        ul li.active a{
+            background-color: #fff;
+            color: #000;
+        }
+        .title{
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+        }
+        .title h1{
+            color: #fff;
+            font-size: 70px;
+            font-family: Century Gothic;
+        }
+    </style>
 </head>
 <body>
-
-<h1>SOMERUi here.</h1>
-<p>目前暂时没有其他的东西。</p>
-  <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&amp;id=399367352&amp;auto=1&amp;height=66" __idm_id__="3121153"></iframe>
-  </body>
+    <header>
+        <div class="main">
+            <ul>
+                <li class="active"><a href="#">首页</a></li>
+                <li><a href="https://github.com/somerui" target="_blank">GitHub主页</a></li>
+                <li><a href="https://github.com/somerui/somerui.github.io" target="_blank">GitHub主页源码</a></li>
+                <li><a href="https://space.bilibili.com/652574224" target="_blank"><span style="color: #ff3c87;">bilibili</span>主页</a></li>
+                
+            </ul>
+        </div>
+        
+        <div class="title">
+            <h1><span style="color: #1f1e33;">This is</span> SOMERUi.</h1>
+            <h1><span style="color: #ffffff;">某睿出品，必为废品。</h1>
+        </div>
+    </header>
+</body>
 </html>
