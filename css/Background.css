@@ -1,0 +1,17 @@
+@font-face {
+        font-family:"Kings Gambit";
+        src: url(font/kingsgmb-1.ttf);
+
+}
+@font-face {
+        font-family:"Exo Regular";
+        src: url(font/Exo-Regular.ttf);
+}
+
+body{
+        background-color:black;
+        background-image:url(https://p1.ssl.qhimg.com/t0110128a34096a7dba.jpg);
+        background-repeat:no-repeat;
+        background-size:cover;
+        color:white;
+}
